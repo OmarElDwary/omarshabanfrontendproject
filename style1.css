@@ -1,0 +1,369 @@
+*  {
+    margin: 0;
+    padding: 0;
+    background-color: dcdde108;
+}
+
+/*HEADER*/
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #1e90ff;
+    
+}
+
+
+.navbar .navbar-expand-lg .navbar-light  {
+    background-color: #636e72;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #2f3640;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: royalblue;
+    
+}
+
+
+#navbarNav .navbar-nav {
+    font-family: 'Dosis', sans-serif;
+    color: #353b48;
+}
+
+.navbar-nav #navbarNav .nav-item .nav-link {
+    color: #353b48;
+}
+
+.navbar-nav #navbarNav .nav-item .nav-link:hover {
+    color: #0097e6;
+}
+
+.btn .btn-primary {
+    border-radius: 102px; 
+}
+
+.content{
+    margin-top: 7%;
+    margin-left: 9%;
+    color: #636e72;
+    background: url("./imgs/header-a.png");
+    background-size: 100% 100%;
+    height: 60vh;
+}
+.content h1{
+    color: #636e72;
+    font-size: 120px;
+    line-height: 140px;
+    font-weight: 600;
+}
+.content p{
+    max-width: 500px;
+    line-height: 28px;
+    opacity: 0;
+}
+.links{
+    margin-top: 30px;
+    opacity: 0;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn{
+    border: 2px solid #2e86de;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15px;
+    background: #2e86de;
+}
+
+.btn :hover{
+    border: 2px solid #2e86de;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15px;
+    color:#2e86de;
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+p.slide-left{
+    animation-delay: 0.5s;
+}
+.links.slide-left{
+    animation-delay: 1s;
+}
+
+element.style {
+    font-family: 'Inter', sans-serif;
+}
+.col {
+    color: #2f3640;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*END OF HEADER*/
+
+/*about*/
+.about h5{
+    color: #3867d6;
+}
+
+.about h3 {
+    color: #303952;
+
+}
+a {
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.about p {
+    color: #303952;
+}
+
+.about .col .p-5 .bg-transparent .sidebar  h5 {
+    color: black;
+}
+
+.about .col .p-5 .bg-transparent .sidebar  p {
+    color: royalblue;
+}
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: #c8d6e529;
+}
+
+/*end of about*/
+
+/* Symptoms*/
+
+.symptoms .container .container .row .col .p-5 .bg-light {
+    width: 100px;
+}
+
+
+.symptoms button{
+    border-radius: 15px;
+    background-color: royalblue;
+}
+
+h6.text-center {
+    color: #0097e6;
+}
+
+h3.text-center {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+.symptoms .button {
+    border-radius: 47px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.sym2 h6.text-center {
+    color: #1e90ff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sym2 h3.text-center {
+    color: #747d8c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sym2 .text strong {
+    color: #1e90ff;
+}
+
+.sym2 .text .btn .btn-primary{
+    border-radius: 99px;
+    align-items: center;
+}
+/*end of symptoms*/
+
+/*prevention*/
+
+.prevention h3.text-center {
+    color: #747d8c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+/*end of prevention*/
+
+/*treatment*/
+
+.treatment .treat h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.steps {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.steps ul {
+    margin-bottom: 20px;
+    list-style: none;
+    list-style-image: url(./imgs/circle-check-regular.svg);
+}
+
+
+.steps-img {
+    width: 300px;
+}
+
+.treatment h4 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #636e72;
+
+}
+
+.treatment p{
+    font-family: 'Noto Sans', sans-serif;
+    color: #026092;
+}
+.treatment .row .col-lg-2 h5 {
+    align-items: center;
+}
+
+.treat-final {
+    background-image: url(./imgs/shape-a.png);
+    background-color: #1e90ff;
+}
+
+.treat-final .row .col-lg-4 h6 {
+    color: #48dbfb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.treat-final .row .col-lg-4 h3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.treat-final .row .col-lg-4 p {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.treat-final .row .col-lg-3 {
+    background-color: #3867d6;
+}
+
+.treat-final .row .col-lg-3 p {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*End Of treatment*/
+
+/*Dos*/
+
+
+.Do-Dont {
+    background-color: #f1f2f6;
+}
+
+.Do-Dont  p{
+    color: #1e90ff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.Do-Dont h2 {
+    color: #747d8c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Do-Dont .col-lg-4  img {
+    align-items: center;
+    width: 650px;
+}
+
+/*End of Dos*/
+
+
+/*FAQ*/
+
+.faq .FAQ-text p.text-center{
+    color: #1e90ff;
+}
+
+.faq .FAQ-text  h3.text-center {
+    color: #3c6382;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.accordion  {
+    padding-top: 20px;
+    width: 600px;
+    align-items: center;
+}
+
+.accordion .accordion-item .accordion-header {
+    background-color: #f1f2f6;
+    color: #1e90ff;
+}
+
+.accordion .accordion-item .accordion-header :hover {
+    background-color: #1e90ff;
+    color: #f1f2f6;
+}
+
+.accordion .accordion-item strong {
+    color: #1e90ff;
+}
+
+/*end of FAQ*/
+
+/*news*/
+.news p.text-center {
+    color: #1e90ff;
+    text-transform: capitalize;
+}
+
+.news h3.text-center {
+    color: #3c6382;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*footer*/
+
+footer {
+    
+    background-image: url(./imgs/shape-a.png);
+}
+
+footer p.text-muted  {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer p.text2  {
+    
+    font-size: larger;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
