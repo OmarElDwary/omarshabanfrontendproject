@@ -111,15 +111,6 @@ p.slide-left{
     animation-delay: 1s;
 }
 
-element.style {
-    font-family: 'Inter', sans-serif;
-}
-.col {
-    color: #2f3640;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 /*END OF HEADER*/
 
 /*about*/
@@ -315,25 +306,56 @@ h3.text-center {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.accordion  {
-    padding-top: 20px;
-    width: 600px;
+.accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    margin-bottom: 10px;
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
     align-items: center;
-}
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+  
+  @media(max-width:767px) {
+    html {
+      font-size: 14px;
+    }
+  }
 
-.accordion .accordion-item .accordion-header {
-    background-color: #f1f2f6;
-    color: #1e90ff;
-}
-
-.accordion .accordion-item .accordion-header :hover {
-    background-color: #1e90ff;
-    color: #f1f2f6;
-}
-
-.accordion .accordion-item strong {
-    color: #1e90ff;
-}
 
 /*end of FAQ*/
 
